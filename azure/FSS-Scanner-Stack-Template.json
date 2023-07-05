@@ -286,6 +286,8 @@
             "kind": "[variables('storageAccountType')]",
             "properties": {
                 "minimumTlsVersion": "TLS1_2",
+                "supportsHttpsTrafficOnly": "True",
+                "allowblobpublicaccess": "False",
                 "publicNetworkAccess": "[variables('publicNetworkAccess')]"
             }
         },
